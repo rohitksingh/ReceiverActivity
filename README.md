@@ -2,22 +2,22 @@
 
 An abstract activity which has boilerplate code for registering and unregistering a BroadcastReceiver
 
-## Overview: 
+Overview
+--------
 
 <img width="894" alt="Abstract" src="https://user-images.githubusercontent.com/11274840/57175275-78ddcf00-6e67-11e9-9fdc-573604ced820.png">
 
-### About BasicActivity
-You can find BasicActivity code [HERE][1]       
-
-Basic Activity       
-
+About the BasicActivity
+----
  - Register BroadcastReceiver at `onStart()`
  - Unregister BroadcastReceiver at `onStop()`
+You can find BasicActivity code [HERE][1]       
 
-### How to use BasicActivity in your Project?
+How to use BasicActivity in your Project?
+------
 
-1) extends BasicAactivity in your Activity
-2) provide an implementation for abstract methods
+-- Make your Activity subclass of the BasicActivity
+-- Override the abstract methods the way you want
 
 You can find an implementation [HERE][2]
 
