@@ -10,8 +10,8 @@ Overview
 About the BasicActivity
 ----
  - Register BroadcastReceiver at `onStart()`
- - Unregister BroadcastReceiver at `onStop()`
-You can find BasicActivity code [HERE][1]       
+ - Unregister BroadcastReceiver at `onStop()`               
+You can find 'BasicActivity' code [HERE][1]       
 
 How to use BasicActivity in your Project?
 ------
@@ -20,8 +20,6 @@ How to use BasicActivity in your Project?
 -- Override the abstract methods the way you want
 
 You can find an implementation [HERE][2]
-
-
 
 
 [1]: https://github.com/rohitksingh/ReceiverActivity/blob/master/BroadcastActivity/app/src/main/java/rohitksingh/com/broadcastactivity/BasicActivity.java
